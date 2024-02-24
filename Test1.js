@@ -2,19 +2,27 @@
 
 var string="abjba"
 
+    function pal(string){
+
+     
+
     for(i=string[left];i<Math.floor(string[string.right]/2);i++){
 
         var left=0;
         var right=string.length-1;
 
         if(string[left]!=string[right]-1-i){
-          console.log("this is Not a Palindrome")
+          return ("False")
         
         }else{
-            console.log("This is A Palindrome")
+            return ("True")
         }
 
     }
+
+    }
+
+    console.log(pal(string))
 
 // -----------------------------------------------------------------------------------------------------------------------
 
